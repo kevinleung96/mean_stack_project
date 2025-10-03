@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Backend</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="/styles.css" type="text/css">
+</head>
+<body>
+  <div>                
+    <h2>Form from the web server</h2>
+    <form action="http://localhost:3000/upload_data" method="post">
+        <input type="text" placeholder="User Name" name="u_name">
+        <input type="number" placeholder="User Age" name="u_age">
+        <input type="text" placeholder="User City" name="u_city">
+        <input type="text" placeholder="User Hobby" name="u_hobby">
+        <input type="submit" value="Send!">
+    </form>
+  </div>
+  
+
+</body>
+</html>
